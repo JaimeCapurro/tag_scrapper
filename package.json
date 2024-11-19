@@ -1,0 +1,36 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Scraping a paginas de TAG",
+  "main": "vespNorte.js",
+  "scripts": {
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "adm-zip": "^0.5.10",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.0.1",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.9.5",
+    "puppeteer": "^15.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0",
+    "rembrandt": "^0.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prisma": "^4.4.0"
+  },
+  "keywords": []
+}
